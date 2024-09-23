@@ -1,0 +1,199 @@
+header{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.495);
+}
+
+span{
+    width: 100%;
+    position: fixed;
+}
+
+video{
+    position: absolute; 
+    right: 1.5;
+    top: 10; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text h1{
+    font-size: 4rem;
+    margin: 20px 0px;
+    width: 800px;
+}
+
+.text h2{
+    font-size: 2rem;
+    width: 400px;
+}
+
+.text button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:  rgb(174, 70, 70);
+}
+
+
+.About-Us{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Us .image{
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 600px;
+    gap: 30px;
+}
+
+.About-Us .image .card1{
+    width: 300px;
+    height: auto;
+    border: 3px lightcoral solid;
+}
+
+.About-Us .image .card1 img{
+    width: inherit;
+    height: inherit;
+}
+
+.About-Us .image .card2 img{
+    width: inherit;
+    height: inherit;
+}
+
+.About-Us .image .card2{
+    position: relative;
+    z-index: -1;
+    top: 50px;
+    width: 300px;
+    height: auto;
+    border: 3px lightcoral solid;
+}
+
+.About-Us .text{
+    width: 500px;
+    padding: 50px;
+    background-color: rgb(174, 70, 70);
+    border-radius: 5px;
+}
+
+.About-Us .text p{
+    padding-top: 15px;
+}
+
+.Catalogue{
+    width: 100%;
+    height: 700px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(38, 38, 38);
+    text-align: center;
+}
+
+.Catalogue .title{
+    margin-top: 50px;
+}
+
+.Catalogue .container{
+    padding-top: 40px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Catalogue .container .card{
+    width: 400px;
+    height: 500px;
+    border: 5px maroon solid;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.Contact{
+    width: 100%;
+    height: 680px;
+}
+
+.Contact .section1{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact .section1 h1{
+    margin-bottom: 10px;
+}
+
+.Contact .section1 h2{
+    margin-bottom: 10px;
+}
+
+.Contact .section1 p{
+    margin-bottom: 20px;
+}
+
+.Contact .section1 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:  rgb(174, 174, 70);
+}
+
+.Contact .section2{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    background-color: rgb(38, 38, 38);
+}
+
+.Contact .section2 .image{
+    width: 800px;
+    height: inherit;
+
+    background-image: url(image/Background2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Contact .section2 .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Contact .section2 .text h1{
+    margin-left: 300px;
+    color: rgb(185, 68, 68);
+}
